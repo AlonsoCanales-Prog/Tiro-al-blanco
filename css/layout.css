@@ -1,0 +1,87 @@
+/* Page styles */
+.lpage {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.lpage__icon {
+    color: inherit;
+    height: 1.5rem;
+}
+
+/* *General styles to header, main and footer */
+.lheader,
+.lmain,
+.lfooter {
+    width: 100%;
+    padding-inline: 0.5rem;
+}
+
+.lheader__content,
+.lmain__content,
+.lfooter__content {
+    max-width: var(--max-width);
+    width: 100%;
+    margin-inline: auto;
+}
+
+/* Header styles */
+.lheader {
+    background-color: var(--primary-dark);
+}
+
+.lheader__content {
+    max-width: var(--max-width);
+    width: 100%;
+    margin-inline: auto;
+    padding-block: 0.5rem 0.65rem;
+}
+
+/* Nav styles */
+.lnav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lnav__options {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.lnav__option {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 1.25rem;
+}
+
+/* Main styles */
+.lmain {
+    margin-top: 1rem;
+}
+
+.lmain__content {
+    padding: 1rem;
+}
+
+/* Footer styles */
+.lfooter {
+    background-color: var(--primary-light);
+}
+
+.lfooter__content {
+    padding-block: 0.35rem;
+    display: flex;
+    justify-content: center;
+}
+
+.lfooter__option {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 1.1rem;
+}
