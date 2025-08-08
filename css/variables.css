@@ -1,7 +1,11 @@
 /* Variables */
 :root {
-    --primary: #FFFFFF;
-    --text-primary: #000000;
+    --primary-light: #FFE0CE;
+    --primary: #FFD6C0;
+    --primary-dark: #FFC6A7;
+    --text-primary: #720000;
+    --text-secondary: #720000AA;
+    --max-width: 48rem;
 }
 
 /* Font load */
